@@ -1,5 +1,5 @@
 window.onload = function () {
-    //Object
+//Object
     var d = {
         color: "red", 
         number: 1, 
@@ -18,4 +18,23 @@ window.onload = function () {
     console.log("The type of:", typeof d.object); 
     console.log("The type of:", typeof d.fonction); 
     console.log("The type of:", typeof d.bool1); 
+//Boucles 
+    //Boucles for : 
+     for (i=0; i<=10; i++) {
+         console.log("For loop:", i); 
+     }
+    //Boucles while:
+    var j=0; 
+    while (j<=10) {
+        console.log("While loop:", j);
+        j++; 
+    }
+    
+    var table = ["Hello", "World"]; 
+
+    for (k=0; k<2; k++) {
+        console.log ('boucle +tableau', 'indice', k, 'table', table[k])
+    }
+
+
 }
