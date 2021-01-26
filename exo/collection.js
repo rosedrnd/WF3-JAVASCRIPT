@@ -17,9 +17,7 @@ window.onload = function() {
 
     var TotalFruitsLegumes = []; 
     for (element in panier) {
-        let prix = panier[element].prixUnité; 
-        let quantity =panier[element].quantity;
-        let result = prix * quantity;  
+        let result = panier[element].prixUnité * panier[element].quantity;  
         TotalFruitsLegumes.push (result);
         console.log (TotalFruitsLegumes); 
         TotalFruitsLegumes.shift(result);  
