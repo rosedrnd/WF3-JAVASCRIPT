@@ -1,0 +1,26 @@
+#div1, #div2, #div3  {
+    height: 50px;
+    width: 100;
+    text-align: center;
+    padding-top: 5px;    
+}
+
+.color1 {
+    color:red; 
+    background-color: rgb(255, 213, 213);
+}
+.color2 {
+    color:green;
+    background-color: rgb(219, 251, 219); 
+}
+
+.color3 {
+    color:blue; 
+    background-color: rgb(162, 194, 253); 
+}
+
+.paragraph1, .paragraph2, .paragraph3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+}
