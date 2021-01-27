@@ -9,7 +9,7 @@ window.onload = function () {
             body.appendChild(newArray[i]);
         }
         var newArray2 = [];
-        let nameArray = ["Helene", "Cathy", "Charlene"];
+        let nameArray = ["Helene", "Cathy", "Charlene",];
         for (let i = 1, k = 0; i <= repeat && k <= repeat; i++, k++) {
             newArray2[i] = document.createElement(balise2);
             newArray2[i].setAttribute('class', 'paragraph' + i);
